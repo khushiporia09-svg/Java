@@ -1,3 +1,4 @@
+// program to separate username and domain from an email
 public class stringProblem_1 {
     public static void main(String[] args) {
         String str = "khushiporia@gmail.com";
