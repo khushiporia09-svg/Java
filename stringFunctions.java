@@ -1,6 +1,6 @@
 public class stringFunctions {
     public static void main(String[] args) {
-        String s = "  Java Programming";
+        String s = "   Java Programming";
         String s2="Java Programming";
         String x = s.toLowerCase();
         System.out.println("to lower case: "+x);
@@ -16,8 +16,8 @@ public class stringFunctions {
         x = s.substring(2);
         System.out.println("substring function: "+x);
 
-        x=s.substring(2,6);
-        System.out.println(x);
+        String y=s.substring(2,6);
+        System.out.println(y);
 
         x = s.replace('n','m');
         System.out.println("replace function: "+x);
